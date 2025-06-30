@@ -1,0 +1,7 @@
+; mre_split_txt.def : Declares the module parameters for the DLL.
+
+LIBRARY      "mre_split_txt"
+DESCRIPTION  'mre_split_txt Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
